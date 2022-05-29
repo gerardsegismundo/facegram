@@ -14,7 +14,7 @@ export default function Header() {
       </section>
       <section className='header-center'>
         <div className='search-bar'>
-          <SearchIcon />
+          <SearchIcon className='search-icon' />
           <input type='text' placeholder='Search...' className='search-input' />
         </div>
       </section>

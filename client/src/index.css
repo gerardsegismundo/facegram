@@ -1,10 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@100;300;400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
+  padding: 0;
+  box-sizing: inherit;
   font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+button,
+a {
+  cursor: pointer;
 }
 
 i {
   font-style: normal;
+}
+
+html {
+  font-size: 16px;
 }

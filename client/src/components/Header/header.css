@@ -12,10 +12,88 @@
   flex: 3;
 }
 
+.logo {
+  font-size: 2.4rem;
+  margin-left: 2rem;
+  font-weight: bold;
+  color: #ffff;
+}
+
 .header-center {
   flex: 5;
 }
 
+.search-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  background-color: white;
+  width: 100%;
+  height: 2rem;
+}
+
+.search-icon {
+  font-size: 1.4rem !important;
+  margin-left: 0.5rem;
+}
+
+.search-input {
+  width: 80%;
+  margin-left: 0.25rem;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
 nav.navigation {
   flex: 4;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffff;
+}
+
+ul.nav-links {
+  display: flex;
+}
+
+.link {
+  margin-right: 1rem;
+}
+
+.nav-icons {
+  display: flex;
+}
+
+.icon {
+  margin-right: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon-badge {
+  background-color: #f00;
+  border-radius: 50%;
+  height: 1.1rem;
+  width: 1.1rem;
+
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+
+  font-size: 0.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
