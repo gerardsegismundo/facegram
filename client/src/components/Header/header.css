@@ -1,0 +1,21 @@
+.header-container {
+  height: 5rem;
+  width: 100%;
+  background-color: #1877f2;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.header-left {
+  flex: 3;
+}
+
+.header-center {
+  flex: 5;
+}
+
+nav.navigation {
+  flex: 4;
+}
