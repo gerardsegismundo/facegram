@@ -43,10 +43,6 @@
   margin-left: 0.25rem;
 }
 
-.search-input:focus {
-  outline: none;
-}
-
 nav.navigation {
   flex: 4;
 

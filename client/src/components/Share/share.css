@@ -1,0 +1,66 @@
+.share {
+  height: 15rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+/* .share-wrapper {
+} */
+
+.share-top {
+  display: flex;
+  align-items: center;
+}
+
+.share-profile-img {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.75rem;
+}
+
+.share-input {
+  width: 80%;
+}
+
+.share-hr {
+  margin-top: 2rem;
+}
+
+.share-bottom {
+  gap: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.share-option {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 1rem 0;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.share-option:last-of-type {
+  margin-right: auto;
+}
+
+.share-icon {
+  font-size: 1.75rem !important;
+}
+
+.share-option-text {
+  color: var(--secondary-text);
+  font-size: 0.85rem;
+}
+
+.share-button {
+  padding: 0.7rem;
+  width: 3rem;
+  background-color: var(--green);
+  color: #ffff;
+}
