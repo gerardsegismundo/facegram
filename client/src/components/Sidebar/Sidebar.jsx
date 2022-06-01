@@ -18,7 +18,7 @@ export default function Sidebar() {
         <ul className='sidebar-list'>
           <li className='sidebar-list-item'>
             <RssFeed className='sidebar-icon' />
-            <span className='sidebar-list-item-text'>Chats</span>
+            <span className='sidebar-list-item-text'>Feed</span>
           </li>
 
           <li className='sidebar-list-item'>
@@ -35,7 +35,7 @@ export default function Sidebar() {
           </li>
           <li className='sidebar-list-item'>
             <Bookmark className='sidebar-icon' />
-            <span className='sidebar-list-item-text'>Bookmarks</span>
+            <span className='sidebar-list-item-text'>Saved</span>
           </li>
           <li className='sidebar-list-item'>
             <HelpOutline className='sidebar-icon' />
@@ -54,7 +54,7 @@ export default function Sidebar() {
             <span className='sidebar-list-item-text'>Courses</span>
           </li>
         </ul>
-        <button className='sidebar-button'>Show More</button>
+        <button className='sidebar-button'>See more</button>
         <hr className='sidebar-hr' />
         <ul className='sidebar-friendlist'>
           <li className='sidebar-friend'>

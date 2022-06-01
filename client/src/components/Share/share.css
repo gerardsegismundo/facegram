@@ -1,13 +1,10 @@
 .share {
-  height: 15rem;
+  height: 12rem;
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
   padding: 1rem;
   margin: 2rem 0;
 }
-
-/* .share-wrapper {
-} */
 
 .share-top {
   display: flex;
@@ -15,8 +12,8 @@
 }
 
 .share-profile-img {
-  width: 3.75rem;
-  height: 3.75rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 0.75rem;
