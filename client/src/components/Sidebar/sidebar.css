@@ -2,6 +2,7 @@
   flex: 3;
   height: calc(100vh - 5rem);
   overflow: scroll;
+  padding: 1rem;
 }
 
 ::-webkit-scrollbar {
@@ -17,7 +18,7 @@
 }
 
 .sidebar-wrapper {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .sidebar-list-item {
@@ -31,10 +32,6 @@
 .sidebar-button {
   width: 8.5rem;
   margin: 0.5rem 0;
-}
-
-.sidebar-hr {
-  margin: 2rem 0;
 }
 
 .sidebar-friend {
